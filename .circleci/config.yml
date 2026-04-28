@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/python:3.9
-    working_directory: ~/pass
+    working_directory: ~/passwordcheck
     steps:
       - checkout
       - run: 
