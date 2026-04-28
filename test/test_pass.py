@@ -20,7 +20,7 @@ def test_no_special_character():
         check_password("NoSpecialChar1")
 
 @pytest.mark.parametrize("invalid_password", [
-    12345678,  # Non-string input
+    12345678,  
     None,
     5.5,
     0,
